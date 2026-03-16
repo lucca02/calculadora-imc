@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 3 - Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="intro">
+
+            <div class="texto">
+            
+                <h1>ODS 3 - Saúde e Bem-Estar</h1>
+
+                <p>
+                    A ODS 3 é um dos Objetivos de Desenvolvimento Sustentável da ONU e tem como objetivo
+                    garantir uma vida saudável e promover o bem-estar para todas as pessoas, em todas as idades. 
+                    Isso inclui ações como melhorar o acesso à saúde, incentivar hábitos saudáveis e prevenir doenças.
+                </p>
+
+            </div>
+
+            <img src="ods3.png" alt="ODS 3 - Saúde e Bem-Estar" width="200">
+
+        </div>
+
+        <h3>Hábitos que ajudam a manter uma boa saúde</h3>
+ 
+        <ul>
+            <li>Praticar atividades físicas regularmente</li>
+            <li>Manter uma alimentação equilibrada</li>
+            <li>Dormir bem</li>
+            <li>Beber bastante água</li>
+            <li>Fazer acompanhamento médico</li>
+        </ul>
+
+        <div class="calculadora">
+
+            <h2>Calculadora de IMC</h2>
+
+            <label>Peso (kg):</label>
+            <input type="number" id="peso" min="1">
+
+            <br><br>
+
+            <label>Altura (m):</label>
+            <input type="number" id="altura" step="0.01" min="0.5">
+
+            <br><br>
+
+            <button onclick="calcularIMC()">Calcular IMC</button>
+
+            <p id="resultado"></p>
+
+        </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
